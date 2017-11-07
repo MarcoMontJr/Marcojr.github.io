@@ -1,0 +1,106 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'FonteTitulo';
+    src: url("../_Fonts/Beauty.ttf");
+}
+
+body {
+    background-color: rgb(243, 241, 243);
+}
+
+#sidebar {
+    width: 300px;
+    float: left;
+}
+
+#content {
+    width: 724px;
+    float: right;
+    padding-left: 24px;
+}
+
+nav {
+    width: 300px;
+    background-color: rgb(178, 179, 217);
+    border: solid 1px rgb(116, 117, 139);
+    padding: 0 12px;
+}
+
+#nav-anchor {
+    width: 30%;
+    float: left;
+}
+
+nav.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    margin-top: 12px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    color: rgb(11, 9, 11);
+    font-weight: 700;
+}
+
+a.nav-active {
+    color: #ccc;
+}
+
+#name {
+    text-align: center;
+}
+
+#logo {
+    padding-left: 15px;
+}
+
+#content {
+    width: 70%;
+    float: right;
+}
+
+.subTitulo {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+p {
+    text-align: justify;
+}
+
+.banner {
+    background-image: url("../_Imagens/_BackGround.jpg");
+    padding-top: 250px;
+    padding-right: 100px;
+    padding-bottom: 220px;
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteTitulo', sans-serif;
+    font-size: 8em;
+    color: #ccc;
+    text-shadow: 7px 7px 7px rgba(0, 0, 0, .6);
+    text-align: center;
+}
+
+header#cabecalho h2 {
+    font-family: 'FonteTitulo', sans-serif;
+    font-size: 4em;
+    color: #ccc;
+    text-shadow: 7px 7px 7px rgba(0, 0, 0, .6);
+    text-align: center;
+}
+
+.intro-divider {
+    width: 900px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
