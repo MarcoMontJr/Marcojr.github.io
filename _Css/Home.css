@@ -77,10 +77,11 @@ p {
 }
 
 .banner {
-    background-image: url("../_Imagens/_BackGround.jpg");
+    background-image: url("../_Imagens/_BackgroundOrangeCup.jpeg");
+    background-size: 100% auto;
     padding-top: 250px;
     padding-right: 100px;
-    padding-bottom: 220px;
+    padding-bottom: 100px;
 }
 
 header#cabecalho h1 {
