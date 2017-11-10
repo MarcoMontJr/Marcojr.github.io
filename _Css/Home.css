@@ -20,8 +20,8 @@ body {
 }
 
 nav {
-    width: 250px;
-    background-color: rgb(178, 179, 217);
+    width: 210px;
+    background-color: rgb(243, 241, 243);
     border: solid 1px rgb(116, 117, 139);
     padding: 0 12px;
 }
@@ -50,7 +50,7 @@ nav li a {
 }
 
 a.nav-active {
-    color: #ccc;
+    color: rgb(114, 112, 114);
 }
 
 #name {
