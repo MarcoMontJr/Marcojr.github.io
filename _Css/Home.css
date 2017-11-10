@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(243, 241, 243);
+    overflow-x: hidden;
 }
 
 #sidebar {
@@ -92,11 +93,11 @@ p {
 }
 
 .banner {
-    background-image: url("../_Imagens/_BackgroundOrangeCup.jpeg");
+    background-image: url("../_Imagens/_BackgroundOrangeCupBlackWhite.png");
     background-size: 100% auto;
-    padding-top: 250px;
-    padding-right: 100px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    height: 100%;
 }
 
 header#cabecalho h1 {
