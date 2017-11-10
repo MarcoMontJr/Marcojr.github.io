@@ -8,18 +8,16 @@
 </head>
 
 <body>
-    <div class="col-md-12">
-        <aside class="banner">
-            <div class="container">
-                <div class="row">
-                    <header id="cabecalho">
-                        <h1>Marco Monteiro Jr.</h1>
-                        <hr class="intro-divider">
-                        <h2>Full-Stack Developer</h2>
-                    </header>
-                </div>
+    <aside class="banner">
+        <div class="container">
+            <div class="row">
+                <header id="cabecalho">
+                    <h1>Marco Monteiro Jr.</h1>
+                    <hr class="intro-divider">
+                    <h2>Full-Stack Developer</h2>
+                </header>
             </div>
-        </aside>
+    </aside>
     </div>
     <hr>
     <div class="container">
@@ -28,14 +26,16 @@
                 <div class="container clearfix">
                     <div id="sidebar">
                         <div id="nav-anchor"></div>
-                        <nav>
-                            <ul>
-                                <li><a href="#sobre">Sobre</a></li>
-                                <li><a href="#tech">Tecnologias</a></li>
-                                <li><a href="#port">Portfolio</a></li>
-                                <li><a href="#">Contato</a></li>
-                            </ul>
-                        </nav>
+                        <div class="col-md-1">
+                            <nav>
+                                <ul>
+                                    <li><a href="#sobre">Sobre</a></li>
+                                    <li><a href="#tech">Tecnologias</a></li>
+                                    <li><a href="#port">Portfolio</a></li>
+                                    <li><a href="#contato">Contato</a></li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                     <div id="content">
                         <section id="sobre">
@@ -47,43 +47,33 @@
                         <br/><hr><br/>
                         <section id="tech">
                             <h1>Tecnologias</h1>
-                            <h2 class="subTitulo">Front-End</h2>
+                            <h2 id="Front">Front-End</h2>
                             <div class="row">
-                                <div class="col-md-12 offset-1">
-                                    <img src="_Imagens/_Front-End.png" alt="Front End">
+                                <div class="col-xs-12 col-md-12 offset-1">
+                                    <img src="_Imagens/_Front-End.png" alt="Front End" class="img-responsive">
                                 </div>                               
                             </div>     
-                            <br/>                     
-                            <h2 class="subTitulo">Back-End</h2>
+                            <br/>               
+                            <h2 id="Back">Back-End</h2>
                             <div class="row">
                                 <div class="col-md-11 offset-1">
-                                    <br/>
-                                    <img src="_Imagens/_Back-End.png" alt="Back-End">
+                                    <img src="_Imagens/_Back-End.png" alt="Back-End" class="img-responsive">
                                 </div>                                
                             </div>
-                            <h2 class="subTitulo">Banco de Dados</h2>
+                            <h2 id="DataBase">Banco de Dados</h2>
                             <div class="row">
-                                <div class="col-xs-6 offset-md-5">
-                                    <img src="_Imagens/_Sql.png" alt="PL/SQL">
-                                </div>
-                            </div>
-                            <h2 class="subTitulo">Ferramentas</h2>
-                            <div class="row">
-                                <div class="col-md-4 offset-md-2">
-                                    <img src="_Imagens/_VStudio.png" alt="Visual Studio 2017">
-                                </div>
-                                <div class="col-md-4 offset-md-2">
-                                    <img src="_Imagens/_VsCode.png" alt="Visual Studio Code">
+                                <br/>  
+                                <div class="col-md-12 offset-md-3">
+                                    <img src="_Imagens/_DataBase.png" alt="Banco de Dados" class="img-responsive">
                                 </div>
                             </div>
                             <br/>
+                            <h2 id="Tools">Ferramentas/Frameworks</h2>
+                            <br/>
                             <div class="row">
-                                <div class="col-md-4 offset-md-2">
-                                    <img src="_Imagens/_SqlServer.png" alt="Sql Server">
-                                </div>
-                                <div class="col-md-4 offset-md-2">
-                                    <img src="_Imagens/_Oracle.png" alt="Oracle">
-                                </div>
+                                <div class="col-md-12">
+                                    <img src="_Imagens/_ToolsFrames.png" alt="Ferramentas e Frameworks" class="img-responsive">
+                                </div>                               
                             </div>
                         </section>
                         <br/><hr><br/>

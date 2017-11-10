@@ -20,7 +20,7 @@ body {
 }
 
 nav {
-    width: 300px;
+    width: 250px;
     background-color: rgb(178, 179, 217);
     border: solid 1px rgb(116, 117, 139);
     padding: 0 12px;
@@ -66,10 +66,25 @@ a.nav-active {
     float: right;
 }
 
-.subTitulo {
+#Front {
     padding-left: 225px;
     padding-bottom: 10px;
     padding-top: 30px;
+}
+
+#Back {
+    padding-left: 225px;
+    padding-top: 30px;
+}
+
+#DataBase {
+    padding-left: 225px;
+    padding-top: 50px;
+}
+
+#Tools {
+    padding-left: 120px;
+    padding-top: 50px;
 }
 
 p {
