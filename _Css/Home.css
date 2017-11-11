@@ -10,7 +10,7 @@ body {
 }
 
 #sidebar {
-    width: 150px;
+    width: 100px;
     float: left;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 nav {
-    width: 210px;
+    width: 200px;
     background-color: rgb(243, 241, 243);
     border: solid 1px rgb(116, 117, 139);
     padding: 0 12px;
