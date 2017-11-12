@@ -127,4 +127,8 @@ header#cabecalho h2 {
     #sidebar {
         display: none;
     }
+    #content {
+        width: auto;
+        padding-left: 24px;
+    }
 }
