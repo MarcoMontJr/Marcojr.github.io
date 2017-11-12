@@ -131,3 +131,11 @@ header#cabecalho h2 {
         padding-left: 24px;
     }
 }
+
+#fotoPessoal {
+    margin: 0 0 10px 20px;
+}
+
+#sobre {
+    padding-bottom: 300px;
+}
