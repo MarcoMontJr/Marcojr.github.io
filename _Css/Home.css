@@ -103,15 +103,14 @@ p {
 
 header#cabecalho h1 {
     font-family: 'FonteTitulo', sans-serif;
-    font-size: 8em;
+    font-size: 8vw;
     color: #ccc;
     text-shadow: 7px 7px 7px rgba(0, 0, 0, .6);
-    text-align: center;
 }
 
 header#cabecalho h2 {
     font-family: 'FonteTitulo', sans-serif;
-    font-size: 4em;
+    font-size: 4vw;
     color: #ccc;
     text-shadow: 7px 7px 7px rgba(0, 0, 0, .6);
     text-align: center;
