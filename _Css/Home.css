@@ -133,13 +133,19 @@ blockquote {
 
 h1 {
     font-family: "FonteTitulo";
-    font-size: 5vw;
+    font-size: 6vw;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
 }
 
 #btnIniciar {
     position: absolute;
     left: 50%;
     top: 85%;
+}
+
+h2 {
+    font-size: 25px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
 }
 
 @media only screen and (max-width: 1026px) {
