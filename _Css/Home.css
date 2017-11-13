@@ -97,7 +97,7 @@ p {
     background-size: 100% auto;
     background-repeat: no-repeat;
     padding-top: 200px;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
     height: 100%;
 }
 
@@ -136,6 +136,11 @@ header#cabecalho h2 {
     margin: 0 0 10px 20px;
 }
 
-#sobre {
-    padding-bottom: 300px;
+blockquote {
+    font-size: 20px;
+}
+
+h1 {
+    font-family: "FonteTitulo";
+    font-size: 5vw;
 }
