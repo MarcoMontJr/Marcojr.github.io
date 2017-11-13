@@ -122,6 +122,26 @@ header#cabecalho h2 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+#fotoPessoal {
+    margin: 0 0 10px 20px;
+}
+
+blockquote {
+    font-size: 19px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+}
+
+h1 {
+    font-family: "FonteTitulo";
+    font-size: 5vw;
+}
+
+#btnIniciar {
+    position: absolute;
+    left: 50%;
+    top: 85%;
+}
+
 @media only screen and (max-width: 1026px) {
     #sidebar {
         display: none;
@@ -130,17 +150,7 @@ header#cabecalho h2 {
         width: auto;
         padding-left: 24px;
     }
-}
-
-#fotoPessoal {
-    margin: 0 0 10px 20px;
-}
-
-blockquote {
-    font-size: 20px;
-}
-
-h1 {
-    font-family: "FonteTitulo";
-    font-size: 5vw;
+    #btnIniciar {
+        display: none;
+    }
 }
