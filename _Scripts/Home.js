@@ -47,3 +47,9 @@ $(document).ready(function() {
         }
     });
 });
+
+// document.getElementById("Tecnologias").addEventListener("click", OpenSublistTech);
+
+// function OpenSublistTech() {
+//     alert("Funcionou!");
+// }

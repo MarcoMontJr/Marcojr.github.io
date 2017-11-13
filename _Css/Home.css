@@ -9,22 +9,25 @@ body {
     overflow-x: hidden;
 }
 
+#main {
+    width: 100%;
+}
+
 #sidebar {
-    width: 100px;
+    width: 100%;
     float: left;
 }
 
 #content {
-    width: 724px;
-    float: right;
-    padding-left: 24px;
+    width: 50%;
 }
 
 nav {
-    width: 200px;
+    width: 15%;
     background-color: rgb(243, 241, 243);
     border: solid 1px rgb(116, 117, 139);
-    padding: 0 12px;
+    padding: 0 2%;
+    position: absolute;
 }
 
 #nav-anchor {
@@ -36,7 +39,6 @@ nav.stick {
     position: fixed;
     top: 0;
     z-index: 10000;
-    margin-top: 12px;
 }
 
 nav ul {
@@ -68,23 +70,21 @@ a.nav-active {
 }
 
 #Front {
-    padding-left: 225px;
-    padding-bottom: 10px;
-    padding-top: 30px;
+    padding-left: 35%;
 }
 
 #Back {
-    padding-left: 225px;
-    padding-top: 30px;
+    padding-left: 35%;
+    padding-top: 5%;
 }
 
 #DataBase {
-    padding-left: 225px;
+    padding-left: 35%;
     padding-top: 50px;
 }
 
 #Tools {
-    padding-left: 120px;
+    padding-left: 25%;
     padding-top: 50px;
 }
 
@@ -92,13 +92,14 @@ p {
     text-align: justify;
 }
 
-.banner {
+aside {
     background-image: url("../_Imagens/_BackgroundOrangeCupBlackWhite.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 15%;
+    padding-bottom: 15%;
     height: 100%;
+    width: 100%;
 }
 
 header#cabecalho h1 {
@@ -117,7 +118,7 @@ header#cabecalho h2 {
 }
 
 .intro-divider {
-    width: 900px;
+    width: 130%;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -158,5 +159,11 @@ h2 {
     }
     #btnIniciar {
         display: none;
+    }
+    h1 {
+        font-family: "FonteTitulo";
+        font-size: 6vw;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+        text-align: center;
     }
 }
