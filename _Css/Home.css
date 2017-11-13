@@ -94,7 +94,7 @@ p {
 
 .banner {
     background-image: url("../_Imagens/_BackgroundOrangeCupBlackWhite.png");
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 200px;
     padding-bottom: 200px;
