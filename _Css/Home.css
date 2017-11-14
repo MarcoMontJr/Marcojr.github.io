@@ -147,9 +147,14 @@ h2 {
 
 @media only screen and (max-width: 1026px) {
     nav {
-        width: 20%;
-        position: absolute;
-        right: 0%;
+        position: fixed;
+        right: 0.5%;
+        top: 30%;
+        width: 8em;
+        margin-top: -2.5em;
+    }
+    ul#Navegador img {
+        display: none;
     }
     #content {
         width: 100%;
