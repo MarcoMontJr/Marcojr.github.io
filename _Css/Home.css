@@ -98,8 +98,6 @@ p {
     width: 103%;
 }
 
-section {}
-
 header#cabecalho h1 {
     font-family: 'FonteTitulo', sans-serif;
     font-size: 8vw;
@@ -148,15 +146,14 @@ h2 {
 }
 
 @media only screen and (max-width: 1026px) {
-    #sidebar {
-        display: none;
+    nav {
+        width: 20%;
+        position: absolute;
+        right: 0%;
     }
     #content {
         width: 100%;
         padding-right: 10%;
-    }
-    #btnIniciar {
-        display: none;
     }
     h1 {
         font-family: "FonteTitulo";
