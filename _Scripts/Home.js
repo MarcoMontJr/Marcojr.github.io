@@ -48,9 +48,9 @@ $(document).ready(function() {
     });
 });
 
-document.getElementById("Tecnologias").addEventListener("click", OpenSublistTech);
+document.getElementById("Tecnologias").addEventListener("click", CreateSublistTech);
 
-function OpenSublistTech() {
+function CreateSublistTech() {
     var ol = document.createElement("ol");
     var newList = document.getElementById("Tecnologias").appendChild(ol);
 
@@ -67,5 +67,11 @@ function OpenSublistTech() {
         anchorItem += 1;
     }
 
-    document.getElementById("Tecnologias").removeEventListener("click", OpenSublistTech);
+    document.getElementById("Tecnologias").removeEventListener("click", CreateSublistTech);
+    setTimeout(function() {
+        for (var cont in subList) {
+            newList.removeChild(newList.firstElementChild);
+            document.getElementById("Tecnologias").addEventListener("click", CreateSublistTech);
+        }
+    }, 30000);
 }
