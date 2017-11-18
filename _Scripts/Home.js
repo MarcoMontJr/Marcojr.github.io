@@ -55,10 +55,17 @@ function OpenSublistTech() {
     var newList = document.getElementById("Tecnologias").appendChild(ol);
 
     var subList = ["Front-End", "Back-End", "Database", "Ferramentas"];
+    var anchor = ["#Front", "#Back", "#DataBase", "#Tools"];
+
+    var anchorItem = 0;
 
     for (var cont in subList) {
         var li = document.createElement("li");
         var a = document.createElement("a");
+        a.href = anchor[anchorItem];
         newList.appendChild(li).appendChild(a).appendChild(document.createTextNode(subList[cont]));
+        anchorItem += 1;
     }
+
+    document.getElementById("Tecnologias").removeEventListener("click", OpenSublistTech);
 }
