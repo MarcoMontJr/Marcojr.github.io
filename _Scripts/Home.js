@@ -48,8 +48,17 @@ $(document).ready(function() {
     });
 });
 
-// document.getElementById("Tecnologias").addEventListener("click", OpenSublistTech);
+document.getElementById("Tecnologias").addEventListener("click", OpenSublistTech);
 
-// function OpenSublistTech() {
-//     alert("Funcionou!");
-// }
+function OpenSublistTech() {
+    var ol = document.createElement("ol");
+    var newList = document.getElementById("Tecnologias").appendChild(ol);
+
+    var subList = ["Front-End", "Back-End", "Database", "Ferramentas"];
+
+    for (var cont in subList) {
+        var li = document.createElement("li");
+        var a = document.createElement("a");
+        newList.appendChild(li).appendChild(a).appendChild(document.createTextNode(subList[cont]));
+    }
+}
