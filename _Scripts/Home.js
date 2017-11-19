@@ -68,10 +68,12 @@ function CreateSublistTech() {
     }
 
     document.getElementById("Tecnologias").removeEventListener("click", CreateSublistTech);
-    setTimeout(function() {
+    document.getElementById("Home").addEventListener("click", DestroySublistTech);
+
+    function DestroySublistTech() {
         for (var cont in subList) {
             newList.removeChild(newList.firstElementChild);
             document.getElementById("Tecnologias").addEventListener("click", CreateSublistTech);
         }
-    }, 30000);
+    };
 }
