@@ -27,7 +27,7 @@ nav {
 }
 
 #nav-anchor {
-    width: 30%;
+    width: 35%;
     float: left;
 }
 
@@ -86,6 +86,10 @@ a.nav-active {
 
 p {
     text-align: justify;
+}
+
+.jumbotron {
+    box-shadow: 5px 5px 5px 5px #888888;
 }
 
 #home {
@@ -149,6 +153,8 @@ h2 {
     background-image: url("../_Imagens/_BackGround.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100%;
+    width: 103%;
 }
 
 footer#contato h1 {
