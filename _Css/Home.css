@@ -149,11 +149,9 @@ h2 {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
 }
 
-footer#contato h1 {
-    font-family: 'FonteTitulo', sans-serif;
-    font-size: 8vw;
-    color: #ccc;
-    text-shadow: 7px 7px 7px rgba(0, 0, 0, .6);
+.in {
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 @media only screen and (max-width: 1026px) {
