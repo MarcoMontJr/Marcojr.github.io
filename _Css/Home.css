@@ -151,12 +151,8 @@ h2 {
 
 footer {
     background-image: url("../_Imagens/_BackgroundFooter.png");
-    bottom: 0;
-    background-size: cover;
     background-repeat: no-repeat;
     width: 103%;
-    text-align: center;
-    padding-top: 15%;
 }
 
 @media only screen and (max-width: 1026px) {
