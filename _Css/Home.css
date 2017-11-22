@@ -149,11 +149,6 @@ h2 {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
 }
 
-.in {
-    padding-top: 15%;
-    padding-left: 15%;
-}
-
 footer {
     background-image: url("../_Imagens/_BackgroundFooter.png");
     bottom: 0;
@@ -167,9 +162,9 @@ footer {
 @media only screen and (max-width: 1026px) {
     nav {
         position: fixed;
-        right: 0.5%;
+        right: 0.10%;
         top: 30%;
-        width: 8em;
+        width: 12em;
         margin-top: -2.5em;
     }
     ul#Navegador img {
@@ -193,5 +188,14 @@ footer {
         padding-bottom: 15%;
         height: 100%;
         width: 115%;
+    }
+    footer {
+        background-image: url("../_Imagens/_BackgroundFooter.png");
+        bottom: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 115%;
+        text-align: center;
+        padding-top: 15%;
     }
 }
