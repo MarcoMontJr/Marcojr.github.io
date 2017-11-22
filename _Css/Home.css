@@ -6,7 +6,7 @@
 
 body {
     background-color: rgb(243, 241, 243);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 #main {
@@ -147,14 +147,6 @@ h1 {
 h2 {
     font-size: 25px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
-}
-
-#contato {
-    background-image: url("../_Imagens/_BackGround.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 103%;
 }
 
 footer#contato h1 {
