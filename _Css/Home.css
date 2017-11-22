@@ -152,7 +152,12 @@ h2 {
 footer {
     background-image: url("../_Imagens/_BackgroundFooter.png");
     background-repeat: no-repeat;
+	background-color: #3b3b3a;
     width: 103%;
+}
+
+.darkFooter{
+	
 }
 
 @media only screen and (max-width: 1026px) {
