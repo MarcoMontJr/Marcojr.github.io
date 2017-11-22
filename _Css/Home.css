@@ -150,16 +150,18 @@ h2 {
 }
 
 .in {
-    padding-top: 30px;
-    padding-left: 30px;
+    padding-top: 15%;
+    padding-left: 15%;
 }
 
-footer h1 {
-    background-image: url("../_Imagens/_BackGround.jpg");
+footer {
+    background-image: url("../_Imagens/_BackgroundFooter.png");
+    bottom: 0;
     background-size: cover;
     background-repeat: no-repeat;
     width: 103%;
     text-align: center;
+    padding-top: 15%;
 }
 
 @media only screen and (max-width: 1026px) {
