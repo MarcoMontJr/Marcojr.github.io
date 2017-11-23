@@ -152,12 +152,20 @@ h2 {
 footer {
     background-image: url("../_Imagens/_BackgroundFooter.png");
     background-repeat: no-repeat;
-	background-color: #3b3b3a;
+    background-color: #3b3b3a;
     width: 103%;
 }
 
-.darkFooter{
-	
+.codepenIcon {
+    background-image: url("../_Imagens/_CodePenIcon.png");
+    display: inline-block;
+    height: 18%;
+    width: 10%;
+    text-indent: -9999%;
+}
+
+.explanation {
+    font-size: 11px;
 }
 
 @media only screen and (max-width: 1026px) {
