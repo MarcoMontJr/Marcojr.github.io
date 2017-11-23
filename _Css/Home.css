@@ -164,6 +164,14 @@ footer {
     text-indent: -9999%;
 }
 
+.githubIcon {
+    background-image: url("../_Imagens/_GitHubIcon.png");
+    display: inline-block;
+    height: 18%;
+    width: 10%;
+    text-indent: -9999%;
+}
+
 .explanation {
     font-size: 11px;
 }
