@@ -209,9 +209,23 @@ footer {
     #contato {
         padding-left: 20%;
     }
+    .codepenIcon {
+        background-image: url("../_Imagens/_CodePenIcon.png");
+        display: inline-block;
+        height: 16%;
+        width: 13%;
+        text-indent: -9999%;
+    }
+    .githubIcon {
+        background-image: url("../_Imagens/_GitHubIcon.png");
+        display: inline-block;
+        height: 16%;
+        width: 13%;
+        text-indent: -9999%;
+    }
     .exp {
         padding-left: 10%;
-    }
+    }    
     footer {
         background-image: url("../_Imagens/_BackgroundFooter.png");
         bottom: 0;
