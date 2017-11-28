@@ -93,7 +93,7 @@ p {
 }
 
 #home {
-    background-image: url("http://ap.imagensbrasil.org/images/2017/11/27/_BackgroundOrangeCupBlackWhite.png");
+    background-image: url("../_Imagens/_BackgroundOrangeCupBlackWhite.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 15%;
@@ -150,14 +150,14 @@ h2 {
 }
 
 footer {
-    background-image: url("http://ap.imagensbrasil.org/images/2017/11/27/_BackgroundFooter.png");
+    background-image: url("../_Imagens/_BackgroundFooter.png");
     background-repeat: no-repeat;
     background-color: #3b3b3a;
     width: 103%;
 }
 
 .codepenIcon {
-    background-image: url("http://ap.imagensbrasil.org/images/2017/11/27/_CodePenIcon.png");
+    background-image: url("../_Imagens/_CodePenIcon.png");
     display: inline-block;
     height: 18%;
     width: 10%;
@@ -165,7 +165,7 @@ footer {
 }
 
 .githubIcon {
-    background-image: url("http://ap.imagensbrasil.org/images/2017/11/27/_GitHubIcon.png");
+    background-image: url("../_Imagens/_GitHubIcon.png");
     display: inline-block;
     height: 18%;
     width: 10%;
@@ -198,7 +198,7 @@ footer {
         text-align: center;
     }
     #home {
-        background-image: url("http://ap.imagensbrasil.org/images/2017/11/27/_BackgroundOrangeCupBlackWhite.png");
+        background-image: url("../_Imagens/_BackgroundOrangeCupBlackWhite.png");
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 15%;
@@ -207,7 +207,7 @@ footer {
         width: 115%;
     }
     footer {
-        background-image: url("http://ap.imagensbrasil.org/images/2017/11/27/_BackgroundFooter.png");
+        background-image: url("../_Imagens/_BackgroundFooter.png");
         bottom: 0;
         background-size: cover;
         background-repeat: no-repeat;
