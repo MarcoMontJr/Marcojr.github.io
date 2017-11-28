@@ -206,6 +206,12 @@ footer {
         height: 100%;
         width: 115%;
     }
+    #contato {
+        padding-left: 20%;
+    }
+    .exp {
+        padding-left: 10%;
+    }
     footer {
         background-image: url("../_Imagens/_BackgroundFooter.png");
         bottom: 0;
