@@ -125,6 +125,7 @@ header#cabecalho h2 {
 
 #fotoPessoal {
     margin: 0 0 10px 20px;
+    box-shadow: 5px 5px;
 }
 
 blockquote {
@@ -225,7 +226,7 @@ footer {
     }
     .exp {
         padding-left: 10%;
-    }    
+    }
     footer {
         background-image: url("../_Imagens/_BackgroundFooter.png");
         bottom: 0;
