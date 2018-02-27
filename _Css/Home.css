@@ -150,16 +150,11 @@ h2 {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
 }
 
-.exp {
-    padding-bottom: 5%;
-}
-
-.expVentron {
-    margin-left: 5%;
-}
-
-.expUnicap {
-    margin-left: 15%;
+footer {
+    background-image: url("../_Imagens/_BackgroundFooter.png");
+    background-repeat: no-repeat;
+    background-color: #3b3b3a;
+    width: 103%;
 }
 
 .codepenIcon {
@@ -180,31 +175,6 @@ h2 {
 
 .explanation {
     font-size: 11px;
-}
-
-.github {
-    margin-left: 10%;
-    padding-bottom: 5%;
-}
-
-.in {
-    margin-left: 20%;
-    padding-bottom: 5%;
-}
-
-.freecodecamp {
-    margin-left: 10%;
-}
-
-.pen {
-    margin-left: 20%;
-}
-
-footer {
-    background-image: url("../_Imagens/_BackgroundFooter.png");
-    background-repeat: no-repeat;
-    background-color: #3b3b3a;
-    width: 103%;
 }
 
 @media only screen and (max-width: 1026px) {
