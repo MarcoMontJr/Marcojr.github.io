@@ -54,7 +54,7 @@ function CreateSublistTech() {
     var ol = document.createElement("ol");
     var newList = document.getElementById("Tecnologias").appendChild(ol);
 
-    var subList = ["Front-End", "Back-End", "Database", "Ferramentas"];
+    var subList = ["Front-End", "Back-End", "Database", "Tools"];
     var anchor = ["#Front", "#Back", "#DataBase", "#Tools"];
 
     var anchorItem = 0;
