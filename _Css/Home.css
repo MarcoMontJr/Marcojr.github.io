@@ -163,6 +163,7 @@ footer {
     height: 18%;
     width: 10%;
     text-indent: -9999%;
+    background-repeat: no-repeat;
 }
 
 .githubIcon {
@@ -171,6 +172,7 @@ footer {
     height: 18%;
     width: 10%;
     text-indent: -9999%;
+    background-repeat: no-repeat;
 }
 
 .explanation {
@@ -194,7 +196,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgb(243, 241, 243);
-    width: 25%;
+    width: 35%;
     padding: 15px;
 }
 
@@ -237,6 +239,7 @@ footer {
         height: 16%;
         width: 13%;
         text-indent: -9999%;
+        background-repeat: no-repeat;
     }
     .githubIcon {
         background-image: url("../_Imagens/_GitHubIcon.png");
@@ -244,6 +247,7 @@ footer {
         height: 16%;
         width: 13%;
         text-indent: -9999%;
+        background-repeat: no-repeat;
     }
     .exp {
         padding-left: 10%;
